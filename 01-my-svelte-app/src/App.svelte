@@ -94,11 +94,23 @@
 
 <Responsive /> -->
 
-
-
 <!-- 组件通信（Props 和 Events） 详细用法 -->
-<script>
+<!-- <script>
   import Parent from './props/Parent.svelte'
 </script>
-<Parent />
+<Parent /> -->
 
+<!-- Svelte 5 生命周期核心变化 -->
+<!-- <script>
+  import Effect from "./effect/index.svelte";
+</script>
+
+<Effect /> -->
+
+<!-- Svelte 5 动画与过渡核心变化 -->
+
+<script>
+  import AppTransition from "./transition/index.svelte";
+</script>
+
+<AppTransition />
